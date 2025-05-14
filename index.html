@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Form with Background</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-form {
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 30px 25px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+      width: 320px;
+    }
+
+    .login-form h2 {
+      margin-bottom: 20px;
+      text-align: center;
+      color: #333;
+    }
+
+    .login-form input {
+      width: 100%;
+      padding: 12px 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .login-form button {
+      width: 100%;
+      padding: 12px;
+      background-color: #04AA6D;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .login-form button:hover {
+      background-color: #03995e;
+    }
+  </style>
+</head>
+<body>
+
+  <form class="login-form" action="#" method="post">
+    <h2>Login</h2>
+
+    <input type="text" name="username" placeholder="Username" required />
+
+    <input type="password" name="password" placeholder="Password" required minlength="6" />
+
+    <button type="submit">Login</button>
+  </form>
+
+</body>
+</html>
