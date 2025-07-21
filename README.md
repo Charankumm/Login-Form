@@ -18,3 +18,38 @@ This project is a modern and responsive **Login Form** built with HTML and CSS. 
 
 ## 📂 File Structure
 
+```
+landing-page/
+├── index.html
+└── README.md
+```
+
+## 🎯 Usage Instructions
+
+1. Save the HTML code as `index.html`
+2. Open in any modern browser
+3. Integrate with backend authentication logic (optional)
+
+## 🧪 Customization Options
+
+- Replace the `background-image` URL with any image of your choice.
+- Change form field styles, colors, or button interactions as needed.
+- Integrate this form with your backend or authentication system via the `action` and `method` attributes in the form.
+
+## 🎨 Preview
+
+![Login Form Background](https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=1600&q=80)
+
+## ✅ Accessibility Tips
+
+- Add `<label>` elements for form inputs for better screen reader support.
+- Include error messages and validation for better UX.
+
+## 👤 Author
+
+**Charan Kumar**  
+*Frontend Developer | UI Designer*
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
